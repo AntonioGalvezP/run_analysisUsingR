@@ -1,0 +1,8 @@
+Code Book
+
+This code book will describe the data used in this project. 
+30 subjects that performed 6 different activities to generate the original data.
+6 Activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+X_train.txt contains 7352 observations of the 561 features. Their ID related to the subjects are in the file subject_train.txt that contains a vector of 7352 integers. The ID of the activities related to each observations in X_train.txt are in the document y_train.txt that contain another vector of 7352 integers.
+X_test.txt contains 2947 observations of the 561 features. And their ID related to each subject are in the document subject_test.txt. On another hand, the ID of the activities related to the observation storaged in X_test.txt are in the document y_test.txt
